@@ -1,10 +1,13 @@
+import CounterApp from "./CounterApp";
+import ProductApp from "./ProductApp";
+import TodoApp from "./TodoApp";
 
 function App() {
   return (
     <div>
-      <h1>
-        App lista
-      </h1>
+      {<CounterApp />}
+      {/*<TodoApp />*/}
+      {/*<ProductApp />*/}
     </div>
   );
 }
